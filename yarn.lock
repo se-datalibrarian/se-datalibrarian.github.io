@@ -835,10 +835,10 @@
     postcss "7.0.32"
     purgecss "^2.3.0"
 
-"@gridsome/cli@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@gridsome/cli/-/cli-0.3.3.tgz#f6a315de2939b1b2f75c6ab21bbcfbc8287de564"
-  integrity sha512-V4rWk4ahUelfQHiSdKWK/ABrZwbGYo9PENI2I9Xv3JTXNYfgYIlhJrKVQyPjx+qDyrkejzrmVcMzIVzgraKFEw==
+"@gridsome/cli@^0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@gridsome/cli/-/cli-0.3.4.tgz#42fa7a4368a80bd04ec497c93cae5a66b041fe22"
+  integrity sha512-KkfnDs3aDRdNapxS5QwCUDUzNJgc+uRExw5IRUrVn38zOdmJc0d8hFqHZ7GpcHEX1W0BVyUsa4sQ3LNyjlttsg==
   dependencies:
     "@hjvedvik/tasks" "^0.0.8"
     chalk "^2.4.1"
@@ -853,10 +853,10 @@
     sort-package-json "^1.15.0"
     update-notifier "^4.1.0"
 
-"@gridsome/plugin-google-analytics@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@gridsome/plugin-google-analytics/-/plugin-google-analytics-0.1.1.tgz#f2f37d97dd8559fd7c4d409a6335d07e1b4be19f"
-  integrity sha512-cJ1+bqhGMDf3ZlmGNOWj1dVXitQA2ziGiR22RTv2jsX3bby1pvz8C2mentVE3ZzSKJoSQJHvlazjXmzWcifneg==
+"@gridsome/plugin-google-analytics@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@gridsome/plugin-google-analytics/-/plugin-google-analytics-0.1.2.tgz#5ffe9c80a0c9c3418a51c21fcbdc5fae7dd4ff1f"
+  integrity sha512-41rWKTXQLnZphP8Fozzjh240lg/v5/JEDacB6ZJEr3RzXz3oYvoEQMOxQaUEgZkS8oOSG9TYDoBWVegzwMOuaw==
   dependencies:
     vue-analytics "^5.16.1"
 
@@ -1774,10 +1774,10 @@ bluebird@^3.1.1, bluebird@^3.5.5:
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
-bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.4.0:
-  version "4.11.9"
-  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.9.tgz#26d556829458f9d1e81fc48952493d0ba3507828"
-  integrity sha512-E6QoYqCKZfgatHTdHzs1RRKP7ip4vvm+EyRUeE2RF0NblwVvb0p6jSVeNTOFxPn26QXN2o6SMfNxKp6kU8zQaw==
+bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.11.9:
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.12.0.tgz#775b3f278efbb9718eec7361f483fb36fbbfea88"
+  integrity sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==
 
 bn.js@^5.1.1:
   version "5.1.2"
@@ -1850,7 +1850,7 @@ braces@^3.0.1, braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-brorand@^1.0.1:
+brorand@^1.0.1, brorand@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/brorand/-/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
   integrity sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8=
@@ -3283,17 +3283,17 @@ electron-to-chromium@^1.3.413:
   integrity sha512-U+QgsL8TZDU/n+rDnYDa3hY5uy3C4iry9mrJS0PNBBGwnocuQ+aHSfgY44mdlaK9744X5YqrrGUvD9PxCLY1HA==
 
 elliptic@^6.0.0, elliptic@^6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.2.tgz#05c5678d7173c049d8ca433552224a495d0e3762"
-  integrity sha512-f4x70okzZbIQl/NSRLkI/+tteV/9WqL98zx+SQ69KbXxmVrmjwsNUPn/gYJJ0sHvEak24cZgHIPegRePAtA/xw==
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.4.tgz#da37cebd31e79a1367e941b592ed1fbebd58abbb"
+  integrity sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==
   dependencies:
-    bn.js "^4.4.0"
-    brorand "^1.0.1"
+    bn.js "^4.11.9"
+    brorand "^1.1.0"
     hash.js "^1.0.0"
-    hmac-drbg "^1.0.0"
-    inherits "^2.0.1"
-    minimalistic-assert "^1.0.0"
-    minimalistic-crypto-utils "^1.0.0"
+    hmac-drbg "^1.0.1"
+    inherits "^2.0.4"
+    minimalistic-assert "^1.0.1"
+    minimalistic-crypto-utils "^1.0.1"
 
 email-addresses@^3.0.1:
   version "3.1.0"
@@ -4134,7 +4134,7 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gh-pages@^3.0.0:
+gh-pages@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/gh-pages/-/gh-pages-3.1.0.tgz#ec3ed0f6a6e3fc3d888758fa018f08191c96bd55"
   integrity sha512-3b1rly9kuf3/dXsT8+ZxP0UhNLOo1CItj+3e31yUVcaph/yDsJ9RzD7JOw5o5zpBTJVQLlJAASNkUfepi9fe2w==
@@ -4332,12 +4332,12 @@ graceful-fs@^4.1.10, graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
   integrity sha1-TK+tdrxi8C+gObL5Tpo906ORpyU=
 
-graphql-compose@^7.3.0:
-  version "7.18.1"
-  resolved "https://registry.yarnpkg.com/graphql-compose/-/graphql-compose-7.18.1.tgz#79dd4b430df5b6b5099b5fba24f199d2ad121a3b"
-  integrity sha512-RcoySE0V22pE3cFtogMslUpwscsX+l/Cg203LIB/P7woEVq0cq7rDDC/sbhhsyjG17BKG99naw/VFXYRkI0jdA==
+graphql-compose@7.20.1:
+  version "7.20.1"
+  resolved "https://registry.yarnpkg.com/graphql-compose/-/graphql-compose-7.20.1.tgz#9b44c1cae615d760c265ce515b3ddbcfdeaa7bd6"
+  integrity sha512-4SQgGGIeNdZn5+XrYgQ3ma+nKUzQG861TGB6tRVQaUALVZ6IraY0wzZtPmypR4un2B0Cvt90HXsF6pDQFNnwTA==
   dependencies:
-    graphql-type-json "^0.3.1"
+    graphql-type-json "0.3.2"
     object-path "^0.11.4"
 
 graphql-playground-html@1.6.25:
@@ -4354,7 +4354,7 @@ graphql-playground-middleware-express@^1.7.12:
   dependencies:
     graphql-playground-html "1.6.25"
 
-graphql-type-json@^0.3.1:
+graphql-type-json@0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/graphql-type-json/-/graphql-type-json-0.3.2.tgz#f53a851dbfe07bd1c8157d24150064baab41e115"
   integrity sha512-J+vjof74oMlCWXSvt0DOf2APEdZOCdubEvGDUAlqH//VBYcOYsGgRW7Xzorr44LvkjiuvecWc8fChxuZZbChtg==
@@ -4378,14 +4378,14 @@ gridsome-plugin-tailwindcss@^2.2.48:
     postcss-preset-env "^6.7.0"
     tailwindcss ">=1.4"
 
-gridsome@^0.7.0:
-  version "0.7.17"
-  resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.17.tgz#c15fc04d26ce9ff635d956c23358498d87b672dd"
-  integrity sha512-3Kooras77KNNO2lmRndrhlvJpH7UYZNO9BfKJmZXHAQrWXRHZKKBmdFHJISjfUfvArsiYiJjcVXXsTxEpNDHcw==
+gridsome@^0.7.23:
+  version "0.7.23"
+  resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.23.tgz#d8b06bdf6b4ed06411be3ec3696324f29c83063e"
+  integrity sha512-2/koBt4YWoTKRQR+7Gy84EHbNTa9y6JgRjBO84wOpZjEWglwxDh0cFAq8QbhHnf13mXbJVRm5aHBESO5iD5BcA==
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/core" "^7.0.0"
-    "@gridsome/cli" "^0.3.3"
+    "@gridsome/cli" "^0.3.4"
     "@hapi/joi" "^15.1.1"
     "@sindresorhus/slugify" "^0.8.0"
     "@vue/babel-preset-app" "^4.2.2"
@@ -4413,7 +4413,7 @@ gridsome@^0.7.0:
     fs-extra "^7.0.1"
     globby "^9.0.0"
     graphql "^14.4.2"
-    graphql-compose "^7.3.0"
+    graphql-compose "7.20.1"
     graphql-playground-middleware-express "^1.7.12"
     hash-sum "^1.0.2"
     hirestime "^3.2.1"
@@ -4596,7 +4596,7 @@ hirestime@^3.2.1:
   resolved "https://registry.yarnpkg.com/hirestime/-/hirestime-3.2.2.tgz#1b5ff4c796b6b70586fa6efa4850952c6e1be484"
   integrity sha512-X+4w5O6JMW7zlgAhad6OPA/MwYTW1FqrF27+6ItRUmDT4jklsXd4N5S5hNCmd9AIGVp8SLsCoGwRe5ddBp/CKg==
 
-hmac-drbg@^1.0.0:
+hmac-drbg@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/hmac-drbg/-/hmac-drbg-1.0.1.tgz#d2745701025a6c775a6c545793ed502fc0c649a1"
   integrity sha1-0nRXAQJabHdabFRXk+1QL8DGSaE=
@@ -5907,7 +5907,7 @@ minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
   integrity sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==
 
-minimalistic-crypto-utils@^1.0.0, minimalistic-crypto-utils@^1.0.1:
+minimalistic-crypto-utils@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
   integrity sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo=
