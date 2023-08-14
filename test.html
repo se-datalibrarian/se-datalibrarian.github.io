@@ -47,7 +47,11 @@ document.write("full date: " + currentTime + "<br>")
 var goal_date= new Date("2023-08-31")
 document.write("goal date: " + goal_date + "<br>")
 document.write("current date:" + month + "/" + day + "/" + year)
-
+if(goal_date<=currentTime) {
+	document.write("Past " + goal_date);
+} else {
+	document.write("Not yet " + goal_date);
+}
 </script>    
 	
 <h1>Southeast Data Librarian Symposium 2023</h1>
