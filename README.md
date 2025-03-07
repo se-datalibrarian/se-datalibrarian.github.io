@@ -4,4 +4,4 @@ Website for the Southeast Data Librarian Symposium (SEDLS). The SEDLS is intende
 
 This is a static site built with hand-coded HTML, CSS, and a little javascript. No external libraries are needed.
 
-Questions may be sent to se.datalibrarain@gmail.com.
+Questions may be sent to se.datalibrarian@gmail.com.
